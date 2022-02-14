@@ -69,7 +69,7 @@ public class CasWebApplication {
                 .banner(banner)
                 .web(true)
                 .properties(properties)
-//                .logStartupInfo(true)
+                .logStartupInfo(true)
                 .contextClass(CasWebApplicationContext.class)
                 .run(args);
     }
